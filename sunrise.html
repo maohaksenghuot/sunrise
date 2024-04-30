@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Survey</title>
+    <style>
+        /* CSS to center the iframe */
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100vh; /* Full height of the viewport */
+            display: flex;
+            justify-content: center; /* Center the container horizontally */
+            align-items: center; /* Center the container vertically */
+        }
+
+        /* Iframe styling */
+        iframe {
+            width: 100%; /* Allow the iframe to take up the full width of its container */
+            height: 100%; /* Allow the iframe to take up the full height of its container */
+            border: none; /* Remove the border */
+        }
+
+        /* Media query for larger screens (e.g., desktop) */
+        @media (min-width: 1024px) {
+            iframe {
+                width: 1024px; /* Adjust width for larger screens */
+                height: 663px; /* Adjust height for larger screens */
+            }
+        }
+
+        /* Media query for smaller screens (e.g., mobile) */
+        @media (max-width: 600px) {
+            iframe {
+                width: 100%; /* Set width to full screen width */
+                height: auto; /* Allow height to adjust automatically */
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Container for the iframe -->
+    <div style="width: 100%; height: 100vh; display: flex; justify-content: center; align-items: center;">
+        <!-- Embed the Zonka Feedback iframe -->
+        <iframe src="https://us1.zonka.co/IE2a9b?zf_embed=1&zf_embedintrooff=0&zf_embedheaderoff=1&zf_embedfooteroff=0&zf_embednavigation=0" 
+                frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+    </div>
+</body>
+</html>
